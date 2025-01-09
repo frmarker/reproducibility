@@ -6,6 +6,7 @@ A simple implementation of Gaussian MLP Encoder and Decoder trained on MNIST
 import os
 import hydra
 from omegaconf import OmegaConf
+import logging
 
 import torch
 import torch.nn as nn
