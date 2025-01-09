@@ -1,0 +1,8 @@
+hyperparameters: null
+batch_size: 100
+lr: 0.001
+hidden_dim: 400
+x_dim: 784
+latent_dim: 20
+num_epochs: 20
+seed: 409
