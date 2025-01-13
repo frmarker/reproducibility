@@ -29,3 +29,4 @@ with profile(activities=[ProfilerActivity.CPU], on_trace_ready=tensorboard_trace
         prof.step()
 
 print(prof.key_averages(group_by_input_shape=True).table(sort_by="cpu_time_total", row_limit=30))
+
